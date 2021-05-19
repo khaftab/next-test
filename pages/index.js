@@ -1,9 +1,9 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Home() {
+  console.log(process.env.NEXT_PUBLIC_OPEN)
   return (
     <div className={styles.container}>
       <Image src="/1.jpg" width={700} height={600} />
