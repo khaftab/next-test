@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.container img {
+  margin: 2rem 0;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
