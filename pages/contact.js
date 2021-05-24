@@ -4,6 +4,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 function contact() {
+    const handleClick = () => {
+        window.workbox.register()
+    }
     return (
         <div>
             <Image src="/4.jpg" width={250} height={210} />
@@ -14,7 +17,7 @@ function contact() {
             <Link href="/"><a>Home</a></Link>
             <Link href="/service"><a>Service</a></Link>
             <Link href="/article"><a>Article</a></Link>
-
+            <button onClick={handleClick}>Install our app</button>
         </div>
     )
 }
