@@ -51,7 +51,7 @@ module.exports =
         pwa: {
             dest: 'public',
             fallbacks: {
-                image: '/public/1.png',
+                image: '/1.jpg',
                 register: false
                 // document: '/other-offline',  // if you want to fallback to a custom page other than /_offline
                 // font: '/static/font/fallback.woff2',
