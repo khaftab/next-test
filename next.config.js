@@ -47,6 +47,7 @@ module.exports =
         images: {
             domains: ['haka.com']
         },
+        target: 'experimental-serverless-trace',
         pwa: {
             dest: 'public',
             fallbacks: {
