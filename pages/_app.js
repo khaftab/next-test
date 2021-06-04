@@ -1,12 +1,9 @@
 import { useEffect } from 'react'
 import '../styles/globals.css'
-import { Workbox } from 'workbox-window'
 import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    window.workbox.unregister()
-  }, [])
+
   return (
     <>
       <Head>
